@@ -22,7 +22,7 @@ var api = new ParseServer({
   },
   push: {
     ios: {
-      pfx: 'apnsTest.p12',
+      pfx: 'testApns.p12',
       passphrase: '1111',
       topic: 'com.dc.TestParseAPNS',
       production: false
