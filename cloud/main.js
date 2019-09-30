@@ -1,5 +1,3 @@
-const config = await Parse.Config.get({useMasterKey: true});
-
 Parse.Cloud.define('hello', function(req, res) {
   return 'Hi';
 });
